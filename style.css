@@ -1,0 +1,214 @@
+/* ---Common Styles--- */
+body {
+    font-family: "Fira Sans";
+    font-size: 16px;
+    color: #0E0E0E;
+    width: 1280px;
+    margin: auto;
+    background-color: #F5F5F5;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+    margin: 0px 0px 32px 0px;
+}
+
+
+/* Header Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+}
+
+nav p {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav button {
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 15px 30px;
+}
+
+
+/* Hero Styles */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    border-radius: 24px;
+    margin: 20px 0px 80px 0px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.50);
+    margin: 0;
+}
+
+.hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: 16px 0px 24px 0px;
+}
+
+.hero-content button {
+    color: #FFFFFF;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+
+/* ---Main Styles--- */
+/* Pillar Section Styles */
+.pillar-cards  {
+    margin-bottom: 80px;
+}
+
+.pillar-cards  {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.pillar-card {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.pillar-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 24px 0px 0px 0px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.pillar-card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 12px 0px 0px 0px;
+}
+
+/* Vision Section Styles */
+.visions  {
+    margin-bottom: 80px;
+}
+
+.visions p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin: 12px 0px 32px 0px;
+}
+.vision-cards  {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    gap: 24px;
+}
+
+.vision-card {
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 33%;
+}
+
+.digital {    
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.green {    
+    background-color: rgb(198, 228, 214);
+}
+
+.modern {    
+    background-color: rgb(247, 235, 207);
+}
+
+.vision-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 24px 0px 0px 0px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.vision-card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 12px 0px 0px 0px;
+}
+
+.vision-card button {
+    color: #ffffff;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 48px 0px 0px 0px;
+}
+
+.digital button{    
+    background-color: #5490F5;
+}
+
+.green button{    
+    background-color: #09A15C;
+}
+
+.modern button{    
+    background-color: #FFC239;
+}
+
+.quote {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 48px 24px;
+}
+
+.quote p{
+    color: rgba(14, 14, 14, 0.8);
+    margin: -45px 0px 0px 0px;
+}
+
+.quote h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px 0px 0px 0px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.quote h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.6);
+    margin: 4px 0px 0px 0px;
+}
