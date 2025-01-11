@@ -215,6 +215,10 @@ nav button {
 
 
 /* Opinion Section Styles */
+.opinion-section {
+    margin-bottom: 80px;
+}
+
 .questions-opinions {
     padding: 32px;
     background-color: #ffffff;
@@ -268,4 +272,92 @@ table tbody tr td p {
     border: 1px solid rgb(14, 14, 14);
     border-radius: 4px;
     background: rgb(198, 228, 214);
+}
+
+
+/* News Section Styles */
+.news-section  {
+    margin-bottom: 80px;
+}
+
+.news-section p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin: 12px 0px 32px 0px;
+}
+
+.news1 {
+    padding: 48px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    display: flex;
+    gap: 32px;
+    margin: 0px 0px 20px 0px;
+}
+
+.featured-img {
+    border-radius: 24px;
+}
+
+.news-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 12px 0px;
+}
+
+.logo-img {
+    margin: 12px 0px;
+}
+
+.news-content .date-time {
+    display: flex;
+}
+
+.news-content .date-time p {
+    margin: 0px 12px 0px 0px;
+}
+
+.news-content .date-time p:nth-child(even) {
+    margin: 0px 0px 0px 12px;
+}
+
+.news-content p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin: 12px 0px;
+}
+
+.news-content button {
+    padding: 13px 26px 13px 26px;
+    margin: 20px 0px 12px 0px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.news2 {
+    padding: 48px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    display: flex;
+    gap: 32px;
+    margin: 20px 0px 20px 0px;
+}
+
+.news3 {
+    padding: 48px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    display: flex;
+    gap: 32px;
+    margin: 20px 0px 0px 0px;
 }
