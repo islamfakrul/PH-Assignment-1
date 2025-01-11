@@ -3,9 +3,13 @@ body {
     font-family: "Fira Sans";
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
-    width: 1280px;
     margin: auto;
     background-color: #F5F5F5;
+}
+
+header, main {
+    width: 1280px;
+    margin: auto;
 }
 
 h2 {
@@ -20,7 +24,7 @@ button {
 }
 
 
-/* Header Styles */
+/* Header Section Styles */
 nav {
     display: flex;
     justify-content: space-between;
@@ -47,7 +51,7 @@ nav button {
 }
 
 
-/* Hero Styles */
+/* Hero Section Styles */
 .hero-section {
     display: flex;
     justify-content: space-between;
@@ -83,7 +87,9 @@ nav button {
 }
 
 
-/* ---Main Styles--- */
+/* ---Main Section Styles--- */
+
+
 /* Pillar Section Styles */
 .pillar-cards  {
     margin-bottom: 80px;
@@ -366,6 +372,7 @@ table tbody tr td p {
     margin: 20px 0px 0px 0px;
 }
 
+
 /* Donation Section Styles */
 .donation-section  {
     margin-bottom: 80px;
@@ -426,6 +433,8 @@ table tbody tr td p {
     line-height: 22px;
 }
 
+
+/* Newsletter Section Styles */
 .newsletter-section {
     margin-bottom: 80px;
     padding: 80px;
@@ -463,4 +472,38 @@ table tbody tr td p {
     font-weight: 600;
     line-height: 22px;
     margin: 0px 0px 0px -5px;
+}
+
+
+/* Footer Section Styles */
+footer {
+    background-color: #ffffff;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+footer h3 {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin: 0px;
+    padding: 0px;
+}
+
+hr {
+    width: 60%;
+    margin: 32px auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-icons .fab {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
 }
